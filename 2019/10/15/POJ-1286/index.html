@@ -129,7 +129,7 @@
 <meta property="og:site_name" content="Blackops">
 <meta property="og:description" content="Necklace of BeadsTime Limit: 1000MS        Memory Limit: 10000KTotal Submissions: 10622        Accepted: 4293Description">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-10-18T01:48:08.069Z">
+<meta property="og:updated_time" content="2019-10-18T01:53:47.633Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="POJ 1286 Necklace of Beads（Polya入门）">
 <meta name="twitter:description" content="Necklace of BeadsTime Limit: 1000MS        Memory Limit: 10000KTotal Submissions: 10622        Accepted: 4293Description">
@@ -466,7 +466,7 @@
 ans=\sum_{i}{m^{c(p_i)}} /|G|</script><p>其中$m$为染色种数，$|G|$为置换操作个数。$c(p_i)$为某一置换$p_i$中循环的个数。用这个定理就大大缩小了标号数，答案非常好统计。</p>
 <p>具体做法：将每个珠子都编号$1…n$，旋转和翻转看成对珠子编号的置换，由于题目中珠子是圆形的，那么可以有旋转和按照一个对称轴翻转两种情况。</p>
 <ol>
-<li>旋转可以是$0$、$\frac{1}{n}<em>360$、$\frac{2}{n}</em>360$……$\frac{n-1}{n}*360$度，每种置换的循环个数为$gcd(i,n)$，共$n$个置换</li>
+<li>旋转可以是$0$、$1/n<em>360$、$2/n</em>360$……$(n-1)/n*360$度，每种置换的循环个数为$gcd(i,n)$，共$n$个置换</li>
 <li>翻转分为奇数和偶数两种情况<ol>
 <li>奇数情况每个点和对边中点连线作为作为翻转轴，每个置换均有$(n - 1)/2+1$个循环，共$n$个这样的置换；</li>
 <li>偶数情况每个对边中点连线作为翻转轴，均有$n/2$个循环，有$n/2$个这样的置换；对点两两一组，均有$(n-2)/2+2$个循环，有$n/2$个这样的置换。</li>
