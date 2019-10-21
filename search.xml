@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>一种排列下的子光圈图像合成光场原图像的方法</title>
+      <link href="/2019/10/20/%E4%B8%80%E7%A7%8D%E6%8E%92%E5%88%97%E4%B8%8B%E7%9A%84%E5%AD%90%E5%85%89%E5%9C%88%E5%9B%BE%E5%83%8F%E5%90%88%E6%88%90%E5%85%89%E5%9C%BA%E5%8E%9F%E5%9B%BE%E5%83%8F%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+      <url>/2019/10/20/%E4%B8%80%E7%A7%8D%E6%8E%92%E5%88%97%E4%B8%8B%E7%9A%84%E5%AD%90%E5%85%89%E5%9C%88%E5%9B%BE%E5%83%8F%E5%90%88%E6%88%90%E5%85%89%E5%9C%BA%E5%8E%9F%E5%9B%BE%E5%83%8F%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>光场相机拍摄的原图(raw文件)的像素之间是按照一定规则排列的，设光场的角分辨率为$U\times V$，子光圈图像分辨率为$X\times Y$，那么这$U\times V$副图像合成后的原图分辨率应该是$(U*X)\times (V*Y)$，但是不同的相机像素排列方式是不同的，这里总结的方法只适用于需要还原回去的原图排列方式为横纵排列，而不是六边形排列之类的</p><a id="more"></a><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"><span class="keyword">from</span> matplotlib <span class="keyword">import</span> pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line">xy_size = <span class="number">1080</span></span><br><span class="line">UV_solution = <span class="number">7</span></span><br><span class="line">img_dir = <span class="string">''</span></span><br><span class="line">full_img = np.zeros([xy_size * UV_solution, xy_size * UV_solution, <span class="number">3</span>])</span><br><span class="line"><span class="keyword">for</span> img_x <span class="keyword">in</span> range(UV_solution):</span><br><span class="line">    <span class="keyword">for</span> img_y <span class="keyword">in</span> range(UV_solution):</span><br><span class="line">        img_order = img_x * UV_solution + img_y</span><br><span class="line">        img_name = <span class="string">'...'</span></span><br><span class="line">        img_path = os.path.join(img_dir, img_name)</span><br><span class="line">        img_np = np.asarray(Image.open(img_path))</span><br><span class="line">        full_img[img_x::UV_solution, img_y::UV_solution] = img_np</span><br><span class="line"></span><br><span class="line">LF_img = Image.fromarray(full_img.astype(<span class="string">'uint8'</span>)).convert(<span class="string">'RGB'</span>)</span><br><span class="line">LF_img.show()</span><br><span class="line">LF_img_name = img_dir.split(<span class="string">'/'</span>)[<span class="number">-1</span>] + <span class="string">'.png'</span></span><br><span class="line">LF_img_save_path = os.path.dirname(img_dir)</span><br><span class="line">LF_img.save(LF_img_save_path + <span class="string">'/'</span> + LF_img_name)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 光场相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 光场 </tag>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>POJ 1286 Necklace of Beads（Polya入门）</title>
       <link href="/2019/10/15/POJ-1286/"/>
       <url>/2019/10/15/POJ-1286/</url>
@@ -512,9 +539,9 @@
       
         <tags>
             
-            <tag> BFS </tag>
-            
             <tag> 图论 </tag>
+            
+            <tag> BFS </tag>
             
             <tag> ACM </tag>
             
@@ -1359,11 +1386,11 @@
       
         <tags>
             
-            <tag> 数学 </tag>
-            
             <tag> 数据结构 </tag>
             
             <tag> 线段树 </tag>
+            
+            <tag> 数学 </tag>
             
             <tag> DP </tag>
             
