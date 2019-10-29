@@ -572,9 +572,9 @@
       
         <tags>
             
-            <tag> 图论 </tag>
-            
             <tag> BFS </tag>
+            
+            <tag> 图论 </tag>
             
             <tag> ACM </tag>
             
@@ -1061,9 +1061,9 @@
       
         <tags>
             
-            <tag> ACM </tag>
-            
             <tag> 分治 </tag>
+            
+            <tag> ACM </tag>
             
             <tag> 差分 </tag>
             
@@ -1419,11 +1419,11 @@
       
         <tags>
             
+            <tag> 数学 </tag>
+            
             <tag> 数据结构 </tag>
             
             <tag> 线段树 </tag>
-            
-            <tag> 数学 </tag>
             
             <tag> DP </tag>
             
