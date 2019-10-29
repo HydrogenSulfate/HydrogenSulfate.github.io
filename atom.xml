@@ -5,9 +5,9 @@
   <subtitle>初心易得，始终难守</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blackops.top/"/>
+  <link href="https://hydrogensulfate.github.io/"/>
   <updated>2019-10-29T01:55:52.481Z</updated>
-  <id>http://blackops.top/</id>
+  <id>https://hydrogensulfate.github.io/</id>
   
   <author>
     <name>Blackops</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>K-means聚类算法的简单numpy实现</title>
-    <link href="http://blackops.top/2019/10/28/K-means%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E7%9A%84%E7%AE%80%E5%8D%95numpy%E5%AE%9E%E7%8E%B0/"/>
-    <id>http://blackops.top/2019/10/28/K-means聚类算法的简单numpy实现/</id>
+    <link href="https://hydrogensulfate.github.io/2019/10/28/K-means%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E7%9A%84%E7%AE%80%E5%8D%95numpy%E5%AE%9E%E7%8E%B0/"/>
+    <id>https://hydrogensulfate.github.io/2019/10/28/K-means聚类算法的简单numpy实现/</id>
     <published>2019-10-28T11:50:41.000Z</published>
     <updated>2019-10-29T01:55:52.481Z</updated>
     
@@ -32,19 +32,19 @@
     </summary>
     
     
-      <category term="机器学习" scheme="http://blackops.top/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="https://hydrogensulfate.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="numpy" scheme="http://blackops.top/tags/numpy/"/>
+      <category term="numpy" scheme="https://hydrogensulfate.github.io/tags/numpy/"/>
     
-      <category term="python" scheme="http://blackops.top/tags/python/"/>
+      <category term="python" scheme="https://hydrogensulfate.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>一种排列下的子光圈图像合成光场原图像的方法</title>
-    <link href="http://blackops.top/2019/10/20/%E4%B8%80%E7%A7%8D%E6%8E%92%E5%88%97%E4%B8%8B%E7%9A%84%E5%AD%90%E5%85%89%E5%9C%88%E5%9B%BE%E5%83%8F%E5%90%88%E6%88%90%E5%85%89%E5%9C%BA%E5%8E%9F%E5%9B%BE%E5%83%8F%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>http://blackops.top/2019/10/20/一种排列下的子光圈图像合成光场原图像的方法/</id>
+    <link href="https://hydrogensulfate.github.io/2019/10/20/%E4%B8%80%E7%A7%8D%E6%8E%92%E5%88%97%E4%B8%8B%E7%9A%84%E5%AD%90%E5%85%89%E5%9C%88%E5%9B%BE%E5%83%8F%E5%90%88%E6%88%90%E5%85%89%E5%9C%BA%E5%8E%9F%E5%9B%BE%E5%83%8F%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://hydrogensulfate.github.io/2019/10/20/一种排列下的子光圈图像合成光场原图像的方法/</id>
     <published>2019-10-20T13:54:23.000Z</published>
     <updated>2019-10-21T03:03:17.889Z</updated>
     
@@ -57,19 +57,19 @@
     </summary>
     
     
-      <category term="光场相关" scheme="http://blackops.top/categories/%E5%85%89%E5%9C%BA%E7%9B%B8%E5%85%B3/"/>
+      <category term="光场相关" scheme="https://hydrogensulfate.github.io/categories/%E5%85%89%E5%9C%BA%E7%9B%B8%E5%85%B3/"/>
     
     
-      <category term="python" scheme="http://blackops.top/tags/python/"/>
+      <category term="python" scheme="https://hydrogensulfate.github.io/tags/python/"/>
     
-      <category term="光场" scheme="http://blackops.top/tags/%E5%85%89%E5%9C%BA/"/>
+      <category term="光场" scheme="https://hydrogensulfate.github.io/tags/%E5%85%89%E5%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>POJ 1286 Necklace of Beads（Polya入门）</title>
-    <link href="http://blackops.top/2019/10/15/POJ-1286/"/>
-    <id>http://blackops.top/2019/10/15/POJ-1286/</id>
+    <link href="https://hydrogensulfate.github.io/2019/10/15/POJ-1286/"/>
+    <id>https://hydrogensulfate.github.io/2019/10/15/POJ-1286/</id>
     <published>2019-10-15T04:38:09.000Z</published>
     <updated>2019-10-18T05:08:45.056Z</updated>
     
@@ -82,25 +82,25 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="数学" scheme="http://blackops.top/categories/ACM/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="Polya" scheme="http://blackops.top/categories/ACM/%E6%95%B0%E5%AD%A6/Polya/"/>
+      <category term="Polya" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%95%B0%E5%AD%A6/Polya/"/>
     
     
-      <category term="数学" scheme="http://blackops.top/tags/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="计数" scheme="http://blackops.top/tags/%E8%AE%A1%E6%95%B0/"/>
+      <category term="计数" scheme="https://hydrogensulfate.github.io/tags/%E8%AE%A1%E6%95%B0/"/>
     
-      <category term="Polya" scheme="http://blackops.top/tags/Polya/"/>
+      <category term="Polya" scheme="https://hydrogensulfate.github.io/tags/Polya/"/>
     
   </entry>
   
   <entry>
     <title>numpy.where的两种用法</title>
-    <link href="http://blackops.top/2019/04/16/numpy-where%E7%9A%84%E4%B8%A4%E7%A7%8D%E7%94%A8%E6%B3%95/"/>
-    <id>http://blackops.top/2019/04/16/numpy-where的两种用法/</id>
+    <link href="https://hydrogensulfate.github.io/2019/04/16/numpy-where%E7%9A%84%E4%B8%A4%E7%A7%8D%E7%94%A8%E6%B3%95/"/>
+    <id>https://hydrogensulfate.github.io/2019/04/16/numpy-where的两种用法/</id>
     <published>2019-04-16T03:32:23.000Z</published>
     <updated>2019-04-16T04:46:25.519Z</updated>
     
@@ -113,21 +113,21 @@
     </summary>
     
     
-      <category term="学习" scheme="http://blackops.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://hydrogensulfate.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="python" scheme="http://blackops.top/categories/%E5%AD%A6%E4%B9%A0/python/"/>
+      <category term="python" scheme="https://hydrogensulfate.github.io/categories/%E5%AD%A6%E4%B9%A0/python/"/>
     
-      <category term="numpy" scheme="http://blackops.top/categories/%E5%AD%A6%E4%B9%A0/python/numpy/"/>
+      <category term="numpy" scheme="https://hydrogensulfate.github.io/categories/%E5%AD%A6%E4%B9%A0/python/numpy/"/>
     
     
-      <category term="numpy" scheme="http://blackops.top/tags/numpy/"/>
+      <category term="numpy" scheme="https://hydrogensulfate.github.io/tags/numpy/"/>
     
   </entry>
   
   <entry>
     <title>压缩存储BitMap简单入门</title>
-    <link href="http://blackops.top/2019/03/14/%E5%8E%8B%E7%BC%A9%E5%AD%98%E5%82%A8BitMap%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8/"/>
-    <id>http://blackops.top/2019/03/14/压缩存储BitMap简单入门/</id>
+    <link href="https://hydrogensulfate.github.io/2019/03/14/%E5%8E%8B%E7%BC%A9%E5%AD%98%E5%82%A8BitMap%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8/"/>
+    <id>https://hydrogensulfate.github.io/2019/03/14/压缩存储BitMap简单入门/</id>
     <published>2019-03-14T11:09:01.000Z</published>
     <updated>2019-03-14T12:20:57.064Z</updated>
     
@@ -140,19 +140,19 @@
     </summary>
     
     
-      <category term="学习" scheme="http://blackops.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://hydrogensulfate.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习" scheme="http://blackops.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://hydrogensulfate.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="位运算" scheme="http://blackops.top/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+      <category term="位运算" scheme="https://hydrogensulfate.github.io/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
     
   </entry>
   
   <entry>
     <title>HDU复试七门知识点个人版整理</title>
-    <link href="http://blackops.top/2019/03/10/HDU%E5%A4%8D%E8%AF%95%E4%B8%83%E9%97%A8%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%AA%E4%BA%BA%E7%89%88%E6%95%B4%E7%90%86/"/>
-    <id>http://blackops.top/2019/03/10/HDU复试七门知识点个人版整理/</id>
+    <link href="https://hydrogensulfate.github.io/2019/03/10/HDU%E5%A4%8D%E8%AF%95%E4%B8%83%E9%97%A8%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%AA%E4%BA%BA%E7%89%88%E6%95%B4%E7%90%86/"/>
+    <id>https://hydrogensulfate.github.io/2019/03/10/HDU复试七门知识点个人版整理/</id>
     <published>2019-03-10T05:55:19.000Z</published>
     <updated>2019-03-19T02:31:01.920Z</updated>
     
@@ -165,17 +165,17 @@
     </summary>
     
     
-      <category term="学习" scheme="http://blackops.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://hydrogensulfate.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="复试笔记" scheme="http://blackops.top/tags/%E5%A4%8D%E8%AF%95%E7%AC%94%E8%AE%B0/"/>
+      <category term="复试笔记" scheme="https://hydrogensulfate.github.io/tags/%E5%A4%8D%E8%AF%95%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>WIN10/7 tensorflow-gpu+keras深度学习工具安装及测试</title>
-    <link href="http://blackops.top/2019/02/06/WIN10-7-tensorflow-gpu-keras%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E5%8F%8A%E6%B5%8B%E8%AF%95/"/>
-    <id>http://blackops.top/2019/02/06/WIN10-7-tensorflow-gpu-keras深度学习工具安装及测试/</id>
+    <link href="https://hydrogensulfate.github.io/2019/02/06/WIN10-7-tensorflow-gpu-keras%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E5%8F%8A%E6%B5%8B%E8%AF%95/"/>
+    <id>https://hydrogensulfate.github.io/2019/02/06/WIN10-7-tensorflow-gpu-keras深度学习工具安装及测试/</id>
     <published>2019-02-06T05:45:55.000Z</published>
     <updated>2019-10-29T08:10:51.862Z</updated>
     
@@ -191,19 +191,19 @@
     </summary>
     
     
-      <category term="机器学习" scheme="http://blackops.top/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="https://hydrogensulfate.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="深度学习" scheme="http://blackops.top/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+      <category term="深度学习" scheme="https://hydrogensulfate.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="tensorflow" scheme="http://blackops.top/tags/tensorflow/"/>
+      <category term="tensorflow" scheme="https://hydrogensulfate.github.io/tags/tensorflow/"/>
     
   </entry>
   
   <entry>
     <title>CF #485 Div.2题解</title>
-    <link href="http://blackops.top/2018/05/31/CF-485-Div-2%E9%A2%98%E8%A7%A3/"/>
-    <id>http://blackops.top/2018/05/31/CF-485-Div-2题解/</id>
+    <link href="https://hydrogensulfate.github.io/2018/05/31/CF-485-Div-2%E9%A2%98%E8%A7%A3/"/>
+    <id>https://hydrogensulfate.github.io/2018/05/31/CF-485-Div-2题解/</id>
     <published>2018-05-31T15:56:41.000Z</published>
     <updated>2018-06-11T07:09:01.285Z</updated>
     
@@ -216,25 +216,25 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="比赛" scheme="http://blackops.top/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
+      <category term="比赛" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
     
     
-      <category term="BFS" scheme="http://blackops.top/tags/BFS/"/>
+      <category term="BFS" scheme="https://hydrogensulfate.github.io/tags/BFS/"/>
     
-      <category term="树状数组" scheme="http://blackops.top/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
+      <category term="树状数组" scheme="https://hydrogensulfate.github.io/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
     
-      <category term="DFS" scheme="http://blackops.top/tags/DFS/"/>
+      <category term="DFS" scheme="https://hydrogensulfate.github.io/tags/DFS/"/>
     
-      <category term="暴力" scheme="http://blackops.top/tags/%E6%9A%B4%E5%8A%9B/"/>
+      <category term="暴力" scheme="https://hydrogensulfate.github.io/tags/%E6%9A%B4%E5%8A%9B/"/>
     
   </entry>
   
   <entry>
     <title>Wannafly挑战赛16 AB序列（三分求离散凹函数极值）</title>
-    <link href="http://blackops.top/2018/05/26/Wannafly%E6%8C%91%E6%88%98%E8%B5%9B16-AB%E5%BA%8F%E5%88%97/"/>
-    <id>http://blackops.top/2018/05/26/Wannafly挑战赛16-AB序列/</id>
+    <link href="https://hydrogensulfate.github.io/2018/05/26/Wannafly%E6%8C%91%E6%88%98%E8%B5%9B16-AB%E5%BA%8F%E5%88%97/"/>
+    <id>https://hydrogensulfate.github.io/2018/05/26/Wannafly挑战赛16-AB序列/</id>
     <published>2018-05-25T16:22:04.000Z</published>
     <updated>2018-05-26T08:02:54.013Z</updated>
     
@@ -247,23 +247,23 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="数学" scheme="http://blackops.top/categories/ACM/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="三分" scheme="http://blackops.top/categories/ACM/%E6%95%B0%E5%AD%A6/%E4%B8%89%E5%88%86/"/>
+      <category term="三分" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%95%B0%E5%AD%A6/%E4%B8%89%E5%88%86/"/>
     
     
-      <category term="数学" scheme="http://blackops.top/tags/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="三分" scheme="http://blackops.top/tags/%E4%B8%89%E5%88%86/"/>
+      <category term="三分" scheme="https://hydrogensulfate.github.io/tags/%E4%B8%89%E5%88%86/"/>
     
   </entry>
   
   <entry>
     <title>CF Educational #44 A B C D E F</title>
-    <link href="http://blackops.top/2018/05/23/CF-Educational-44-A-B-C-D-E-F/"/>
-    <id>http://blackops.top/2018/05/23/CF-Educational-44-A-B-C-D-E-F/</id>
+    <link href="https://hydrogensulfate.github.io/2018/05/23/CF-Educational-44-A-B-C-D-E-F/"/>
+    <id>https://hydrogensulfate.github.io/2018/05/23/CF-Educational-44-A-B-C-D-E-F/</id>
     <published>2018-05-23T14:34:25.000Z</published>
     <updated>2018-05-25T03:31:14.339Z</updated>
     
@@ -276,27 +276,27 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="比赛" scheme="http://blackops.top/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
+      <category term="比赛" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
     
     
-      <category term="树状数组" scheme="http://blackops.top/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
+      <category term="树状数组" scheme="https://hydrogensulfate.github.io/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
     
-      <category term="DP" scheme="http://blackops.top/tags/DP/"/>
+      <category term="DP" scheme="https://hydrogensulfate.github.io/tags/DP/"/>
     
-      <category term="哈希" scheme="http://blackops.top/tags/%E5%93%88%E5%B8%8C/"/>
+      <category term="哈希" scheme="https://hydrogensulfate.github.io/tags/%E5%93%88%E5%B8%8C/"/>
     
-      <category term="二分" scheme="http://blackops.top/tags/%E4%BA%8C%E5%88%86/"/>
+      <category term="二分" scheme="https://hydrogensulfate.github.io/tags/%E4%BA%8C%E5%88%86/"/>
     
-      <category term="暴力" scheme="http://blackops.top/tags/%E6%9A%B4%E5%8A%9B/"/>
+      <category term="暴力" scheme="https://hydrogensulfate.github.io/tags/%E6%9A%B4%E5%8A%9B/"/>
     
   </entry>
   
   <entry>
     <title>CF #484 Div.2 A B C D</title>
-    <link href="http://blackops.top/2018/05/20/CF-484-Div-2-A-B-C-D/"/>
-    <id>http://blackops.top/2018/05/20/CF-484-Div-2-A-B-C-D/</id>
+    <link href="https://hydrogensulfate.github.io/2018/05/20/CF-484-Div-2-A-B-C-D/"/>
+    <id>https://hydrogensulfate.github.io/2018/05/20/CF-484-Div-2-A-B-C-D/</id>
     <published>2018-05-20T15:16:57.000Z</published>
     <updated>2018-05-20T16:35:52.781Z</updated>
     
@@ -309,25 +309,25 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="比赛" scheme="http://blackops.top/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
+      <category term="比赛" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
     
     
-      <category term="思维" scheme="http://blackops.top/tags/%E6%80%9D%E7%BB%B4/"/>
+      <category term="思维" scheme="https://hydrogensulfate.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
     
-      <category term="STL" scheme="http://blackops.top/tags/STL/"/>
+      <category term="STL" scheme="https://hydrogensulfate.github.io/tags/STL/"/>
     
-      <category term="DFS" scheme="http://blackops.top/tags/DFS/"/>
+      <category term="DFS" scheme="https://hydrogensulfate.github.io/tags/DFS/"/>
     
-      <category term="并查集" scheme="http://blackops.top/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+      <category term="并查集" scheme="https://hydrogensulfate.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
     
   </entry>
   
   <entry>
     <title>“浪潮杯”第九届山东省ACM大学生程序设计竞赛重现赛 B Bullet（二分+最大流）</title>
-    <link href="http://blackops.top/2018/05/19/%E6%B5%AA%E6%BD%AE%E6%9D%AF%E7%AC%AC%E4%B9%9D%E5%B1%8A%E5%B1%B1%E4%B8%9C%E7%9C%81ACM%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B%E9%87%8D%E7%8E%B0%E8%B5%9B-B-Bullet/"/>
-    <id>http://blackops.top/2018/05/19/浪潮杯第九届山东省ACM大学生程序设计竞赛重现赛-B-Bullet/</id>
+    <link href="https://hydrogensulfate.github.io/2018/05/19/%E6%B5%AA%E6%BD%AE%E6%9D%AF%E7%AC%AC%E4%B9%9D%E5%B1%8A%E5%B1%B1%E4%B8%9C%E7%9C%81ACM%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B%E9%87%8D%E7%8E%B0%E8%B5%9B-B-Bullet/"/>
+    <id>https://hydrogensulfate.github.io/2018/05/19/浪潮杯第九届山东省ACM大学生程序设计竞赛重现赛-B-Bullet/</id>
     <published>2018-05-19T15:50:25.000Z</published>
     <updated>2018-05-20T15:19:00.085Z</updated>
     
@@ -340,29 +340,29 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="图论" scheme="http://blackops.top/categories/ACM/%E5%9B%BE%E8%AE%BA/"/>
+      <category term="图论" scheme="https://hydrogensulfate.github.io/categories/ACM/%E5%9B%BE%E8%AE%BA/"/>
     
-      <category term="网络流" scheme="http://blackops.top/categories/ACM/%E5%9B%BE%E8%AE%BA/%E7%BD%91%E7%BB%9C%E6%B5%81/"/>
+      <category term="网络流" scheme="https://hydrogensulfate.github.io/categories/ACM/%E5%9B%BE%E8%AE%BA/%E7%BD%91%E7%BB%9C%E6%B5%81/"/>
     
-      <category term="最大流" scheme="http://blackops.top/categories/ACM/%E5%9B%BE%E8%AE%BA/%E7%BD%91%E7%BB%9C%E6%B5%81/%E6%9C%80%E5%A4%A7%E6%B5%81/"/>
+      <category term="最大流" scheme="https://hydrogensulfate.github.io/categories/ACM/%E5%9B%BE%E8%AE%BA/%E7%BD%91%E7%BB%9C%E6%B5%81/%E6%9C%80%E5%A4%A7%E6%B5%81/"/>
     
     
-      <category term="图论" scheme="http://blackops.top/tags/%E5%9B%BE%E8%AE%BA/"/>
+      <category term="图论" scheme="https://hydrogensulfate.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
     
-      <category term="网络流" scheme="http://blackops.top/tags/%E7%BD%91%E7%BB%9C%E6%B5%81/"/>
+      <category term="网络流" scheme="https://hydrogensulfate.github.io/tags/%E7%BD%91%E7%BB%9C%E6%B5%81/"/>
     
-      <category term="最大流" scheme="http://blackops.top/tags/%E6%9C%80%E5%A4%A7%E6%B5%81/"/>
+      <category term="最大流" scheme="https://hydrogensulfate.github.io/tags/%E6%9C%80%E5%A4%A7%E6%B5%81/"/>
     
-      <category term="二分" scheme="http://blackops.top/tags/%E4%BA%8C%E5%88%86/"/>
+      <category term="二分" scheme="https://hydrogensulfate.github.io/tags/%E4%BA%8C%E5%88%86/"/>
     
   </entry>
   
   <entry>
     <title>CF #480 Div.2 A B C D E</title>
-    <link href="http://blackops.top/2018/05/10/CF-480-Div-2-A-B-C-D-E/"/>
-    <id>http://blackops.top/2018/05/10/CF-480-Div-2-A-B-C-D-E/</id>
+    <link href="https://hydrogensulfate.github.io/2018/05/10/CF-480-Div-2-A-B-C-D-E/"/>
+    <id>https://hydrogensulfate.github.io/2018/05/10/CF-480-Div-2-A-B-C-D-E/</id>
     <published>2018-05-10T13:37:16.000Z</published>
     <updated>2018-05-10T15:01:29.542Z</updated>
     
@@ -375,27 +375,27 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="比赛" scheme="http://blackops.top/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
+      <category term="比赛" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
     
     
-      <category term="思维" scheme="http://blackops.top/tags/%E6%80%9D%E7%BB%B4/"/>
+      <category term="思维" scheme="https://hydrogensulfate.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
     
-      <category term="DFS" scheme="http://blackops.top/tags/DFS/"/>
+      <category term="DFS" scheme="https://hydrogensulfate.github.io/tags/DFS/"/>
     
-      <category term="并查集" scheme="http://blackops.top/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+      <category term="并查集" scheme="https://hydrogensulfate.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
     
-      <category term="倍增" scheme="http://blackops.top/tags/%E5%80%8D%E5%A2%9E/"/>
+      <category term="倍增" scheme="https://hydrogensulfate.github.io/tags/%E5%80%8D%E5%A2%9E/"/>
     
-      <category term="贪心" scheme="http://blackops.top/tags/%E8%B4%AA%E5%BF%83/"/>
+      <category term="贪心" scheme="https://hydrogensulfate.github.io/tags/%E8%B4%AA%E5%BF%83/"/>
     
   </entry>
   
   <entry>
     <title>牛客练习赛16 E 求值</title>
-    <link href="http://blackops.top/2018/04/28/%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B16-E-%E6%B1%82%E5%80%BC/"/>
-    <id>http://blackops.top/2018/04/28/牛客练习赛16-E-求值/</id>
+    <link href="https://hydrogensulfate.github.io/2018/04/28/%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B16-E-%E6%B1%82%E5%80%BC/"/>
+    <id>https://hydrogensulfate.github.io/2018/04/28/牛客练习赛16-E-求值/</id>
     <published>2018-04-27T16:41:58.000Z</published>
     <updated>2018-04-28T03:09:49.756Z</updated>
     
@@ -409,19 +409,19 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="思维" scheme="http://blackops.top/categories/ACM/%E6%80%9D%E7%BB%B4/"/>
+      <category term="思维" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%80%9D%E7%BB%B4/"/>
     
     
-      <category term="思维" scheme="http://blackops.top/tags/%E6%80%9D%E7%BB%B4/"/>
+      <category term="思维" scheme="https://hydrogensulfate.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
     
   </entry>
   
   <entry>
     <title>Python学习笔记_day1</title>
-    <link href="http://blackops.top/2018/04/25/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-day1/"/>
-    <id>http://blackops.top/2018/04/25/Python学习笔记-day1/</id>
+    <link href="https://hydrogensulfate.github.io/2018/04/25/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-day1/"/>
+    <id>https://hydrogensulfate.github.io/2018/04/25/Python学习笔记-day1/</id>
     <published>2018-04-25T12:30:06.000Z</published>
     <updated>2019-10-29T08:09:48.507Z</updated>
     
@@ -434,21 +434,21 @@
     </summary>
     
     
-      <category term="学习" scheme="http://blackops.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://hydrogensulfate.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="python" scheme="http://blackops.top/categories/%E5%AD%A6%E4%B9%A0/python/"/>
+      <category term="python" scheme="https://hydrogensulfate.github.io/categories/%E5%AD%A6%E4%B9%A0/python/"/>
     
     
-      <category term="python" scheme="http://blackops.top/tags/python/"/>
+      <category term="python" scheme="https://hydrogensulfate.github.io/tags/python/"/>
     
-      <category term="学习" scheme="http://blackops.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://hydrogensulfate.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>HDU 2082 找单词（FFT优化母函数乘法）</title>
-    <link href="http://blackops.top/2018/04/24/HDU-2082/"/>
-    <id>http://blackops.top/2018/04/24/HDU-2082/</id>
+    <link href="https://hydrogensulfate.github.io/2018/04/24/HDU-2082/"/>
+    <id>https://hydrogensulfate.github.io/2018/04/24/HDU-2082/</id>
     <published>2018-04-24T02:24:30.000Z</published>
     <updated>2018-04-25T15:33:16.120Z</updated>
     
@@ -461,23 +461,23 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="数学" scheme="http://blackops.top/categories/ACM/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="FFT" scheme="http://blackops.top/categories/ACM/%E6%95%B0%E5%AD%A6/FFT/"/>
+      <category term="FFT" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%95%B0%E5%AD%A6/FFT/"/>
     
     
-      <category term="数学" scheme="http://blackops.top/tags/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="FFT，母函数" scheme="http://blackops.top/tags/FFT%EF%BC%8C%E6%AF%8D%E5%87%BD%E6%95%B0/"/>
+      <category term="FFT，母函数" scheme="https://hydrogensulfate.github.io/tags/FFT%EF%BC%8C%E6%AF%8D%E5%87%BD%E6%95%B0/"/>
     
   </entry>
   
   <entry>
     <title>HDU 1402 A * B Problem Plus（FFT入门题）</title>
-    <link href="http://blackops.top/2018/04/19/HDU-1402/"/>
-    <id>http://blackops.top/2018/04/19/HDU-1402/</id>
+    <link href="https://hydrogensulfate.github.io/2018/04/19/HDU-1402/"/>
+    <id>https://hydrogensulfate.github.io/2018/04/19/HDU-1402/</id>
     <published>2018-04-19T15:46:51.000Z</published>
     <updated>2018-04-23T04:54:26.641Z</updated>
     
@@ -491,25 +491,25 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="数学" scheme="http://blackops.top/categories/ACM/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="FFT" scheme="http://blackops.top/categories/ACM/%E6%95%B0%E5%AD%A6/FFT/"/>
+      <category term="FFT" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%95%B0%E5%AD%A6/FFT/"/>
     
     
-      <category term="数学" scheme="http://blackops.top/tags/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="ACM" scheme="http://blackops.top/tags/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/tags/ACM/"/>
     
-      <category term="FFT" scheme="http://blackops.top/tags/FFT/"/>
+      <category term="FFT" scheme="https://hydrogensulfate.github.io/tags/FFT/"/>
     
   </entry>
   
   <entry>
     <title>CF #475 Div.2 A B C D</title>
-    <link href="http://blackops.top/2018/04/18/CF-475-Div-2-A-B-C-D/"/>
-    <id>http://blackops.top/2018/04/18/CF-475-Div-2-A-B-C-D/</id>
+    <link href="https://hydrogensulfate.github.io/2018/04/18/CF-475-Div-2-A-B-C-D/"/>
+    <id>https://hydrogensulfate.github.io/2018/04/18/CF-475-Div-2-A-B-C-D/</id>
     <published>2018-04-18T13:47:58.000Z</published>
     <updated>2018-04-19T11:48:24.970Z</updated>
     
@@ -522,23 +522,23 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="比赛" scheme="http://blackops.top/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
+      <category term="比赛" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
     
     
-      <category term="数学" scheme="http://blackops.top/tags/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://hydrogensulfate.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="思维" scheme="http://blackops.top/tags/%E6%80%9D%E7%BB%B4/"/>
+      <category term="思维" scheme="https://hydrogensulfate.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
     
-      <category term="逆元" scheme="http://blackops.top/tags/%E9%80%86%E5%85%83/"/>
+      <category term="逆元" scheme="https://hydrogensulfate.github.io/tags/%E9%80%86%E5%85%83/"/>
     
   </entry>
   
   <entry>
     <title>CF Educational #42 A B C D F</title>
-    <link href="http://blackops.top/2018/04/12/CF-Educational-42-A-B-C-D-F/"/>
-    <id>http://blackops.top/2018/04/12/CF-Educational-42-A-B-C-D-F/</id>
+    <link href="https://hydrogensulfate.github.io/2018/04/12/CF-Educational-42-A-B-C-D-F/"/>
+    <id>https://hydrogensulfate.github.io/2018/04/12/CF-Educational-42-A-B-C-D-F/</id>
     <published>2018-04-12T11:31:08.000Z</published>
     <updated>2018-04-12T12:18:26.272Z</updated>
     
@@ -551,27 +551,27 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="比赛" scheme="http://blackops.top/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
+      <category term="比赛" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
     
     
-      <category term="BFS" scheme="http://blackops.top/tags/BFS/"/>
+      <category term="BFS" scheme="https://hydrogensulfate.github.io/tags/BFS/"/>
     
-      <category term="图论" scheme="http://blackops.top/tags/%E5%9B%BE%E8%AE%BA/"/>
+      <category term="图论" scheme="https://hydrogensulfate.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
     
-      <category term="ACM" scheme="http://blackops.top/tags/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/tags/ACM/"/>
     
-      <category term="思维" scheme="http://blackops.top/tags/%E6%80%9D%E7%BB%B4/"/>
+      <category term="思维" scheme="https://hydrogensulfate.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
     
-      <category term="Tarjan" scheme="http://blackops.top/tags/Tarjan/"/>
+      <category term="Tarjan" scheme="https://hydrogensulfate.github.io/tags/Tarjan/"/>
     
   </entry>
   
   <entry>
     <title>CF Educational #41 A B C D E</title>
-    <link href="http://blackops.top/2018/04/08/CF-Educational-41-A-B-C-D-E/"/>
-    <id>http://blackops.top/2018/04/08/CF-Educational-41-A-B-C-D-E/</id>
+    <link href="https://hydrogensulfate.github.io/2018/04/08/CF-Educational-41-A-B-C-D-E/"/>
+    <id>https://hydrogensulfate.github.io/2018/04/08/CF-Educational-41-A-B-C-D-E/</id>
     <published>2018-04-08T13:12:54.000Z</published>
     <updated>2018-04-08T13:57:14.709Z</updated>
     
@@ -584,24 +584,24 @@
     </summary>
     
     
-      <category term="ACM" scheme="http://blackops.top/categories/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/categories/ACM/"/>
     
-      <category term="比赛" scheme="http://blackops.top/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
+      <category term="比赛" scheme="https://hydrogensulfate.github.io/categories/ACM/%E6%AF%94%E8%B5%9B/"/>
     
     
-      <category term="数据结构" scheme="http://blackops.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <category term="数据结构" scheme="https://hydrogensulfate.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-      <category term="ACM" scheme="http://blackops.top/tags/ACM/"/>
+      <category term="ACM" scheme="https://hydrogensulfate.github.io/tags/ACM/"/>
     
-      <category term="比赛" scheme="http://blackops.top/tags/%E6%AF%94%E8%B5%9B/"/>
+      <category term="思维" scheme="https://hydrogensulfate.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
     
-      <category term="思维" scheme="http://blackops.top/tags/%E6%80%9D%E7%BB%B4/"/>
+      <category term="比赛" scheme="https://hydrogensulfate.github.io/tags/%E6%AF%94%E8%B5%9B/"/>
     
-      <category term="优化" scheme="http://blackops.top/tags/%E4%BC%98%E5%8C%96/"/>
+      <category term="优化" scheme="https://hydrogensulfate.github.io/tags/%E4%BC%98%E5%8C%96/"/>
     
-      <category term="主席树" scheme="http://blackops.top/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
+      <category term="主席树" scheme="https://hydrogensulfate.github.io/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
     
-      <category term="计算几何" scheme="http://blackops.top/tags/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
+      <category term="计算几何" scheme="https://hydrogensulfate.github.io/tags/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
     
   </entry>
   
