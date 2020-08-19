@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Manacher算法入门</title>
+      <link href="/2020/08/19/Manacher%E7%AE%97%E6%B3%95%E5%85%A5%E9%97%A8/"/>
+      <url>/2020/08/19/Manacher%E7%AE%97%E6%B3%95%E5%85%A5%E9%97%A8/</url>
+      
+        <content type="html"><![CDATA[<p>Manacher算法是一种优化的暴力算法，其精髓在于<strong>利用了回文串的基本性质——左右对称性</strong>。</p><a id="more"></a><p>最简单的情况就是以每个点为中心（先将两个字符之间的空隙也视为字符），<strong>从中心开始往左右扩散直至左右不相等则结束</strong>，但是如果从左到右地求解，由于回文串的基本性质，如果恰好当前要求解的位置<code>i</code>在某个回文串<code>s</code>中，那么此时（后面还可能会更新）<code>i</code>的回文信息可以用<code>i</code>关于<code>s</code>的对称点<code>j</code>处的信息来初始化，因为<code>j</code>处的信息在<code>i</code>一定成立。</p><p>观察上述流程，显然可以加入三个辅助的变量（数组）</p><ol><li>需要一个数组<code>p[M]</code>来记录每个点的回文信息，最简单的就记录每个点能扩展的右边界（<strong>开区间</strong>）</li><li>一个变量<code>maxr</code>记录当前位置是否在之前某个求解过的回文子串内部，即维护<strong>最长的回文子串右边界（开区间）</strong></li><li>为了方便获得当前点的对称点，用<code>mid</code>记录<code>maxr</code>对应的最长回文子串的中心点位置</li></ol><p>然后为了统一奇偶回文的中心点是否存在问题，将原始串用<code>#</code>和<code>$</code>做间隔处理，然后用处理后的串做Manacher算法扫描，处理后的串长这样：</p><script type="math/tex; mode=display">\$\#\mathcal{S}_0\#\mathcal{S}_1\#\mathcal{S}_2\#\mathcal{S}_3...\mathcal{S}_{n-1}\#</script><p><a href="https://www.luogu.com.cn/problem/P3805" target="_blank" rel="noopener">P3805 【模板】manacher算法</a></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N = <span class="number">11000005</span>;</span><br><span class="line"><span class="keyword">int</span> p[N &lt;&lt; <span class="number">1</span>];</span><br><span class="line"><span class="keyword">char</span> str[N &lt;&lt;<span class="number">1</span>];</span><br><span class="line"><span class="keyword">char</span> s[N];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%s"</span>, s);</span><br><span class="line">    <span class="keyword">int</span> n = <span class="built_in">strlen</span>(s);</span><br><span class="line">    <span class="keyword">int</span> sz = <span class="number">0</span>;</span><br><span class="line">    str[sz++] = <span class="string">'$'</span>;</span><br><span class="line">    str[sz++] = <span class="string">'#'</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; ++i)</span><br><span class="line">    &#123;</span><br><span class="line">        str[sz++] = s[i];</span><br><span class="line">        str[sz++] = <span class="string">'#'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    str[sz] = <span class="number">0</span>;</span><br><span class="line">    <span class="comment">// $#s_1</span></span><br><span class="line">    <span class="keyword">int</span> mr = <span class="number">0</span>, mid = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; sz; ++i)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(i &lt; mr)</span><br><span class="line">        &#123;</span><br><span class="line">            p[i] = min(p[<span class="number">2</span> * mid - i], mr - i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            p[i] = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span> (str[i - p[i]] == str[i + p[i]])</span><br><span class="line">            ++p[i];</span><br><span class="line">        <span class="keyword">if</span>(i + p[i] &gt; mr)</span><br><span class="line">        &#123;</span><br><span class="line">            mr = i + p[i];</span><br><span class="line">            mid = i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">2</span>; i &lt; sz - <span class="number">1</span>; ++i)</span><br><span class="line">    &#123;</span><br><span class="line">        ans = max(ans, p[i] - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, ans);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> ACM </category>
+          
+          <category> 字符串 </category>
+          
+          <category> Manacher </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 字符串 </tag>
+            
+            <tag> Manacher </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Grefenstette编码解码原理和简单实现</title>
       <link href="/2020/05/27/Grefenstette%E7%BC%96%E7%A0%81%E8%A7%A3%E7%A0%81%E5%8E%9F%E7%90%86%E5%92%8C%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0/"/>
       <url>/2020/05/27/Grefenstette%E7%BC%96%E7%A0%81%E8%A7%A3%E7%A0%81%E5%8E%9F%E7%90%86%E5%92%8C%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0/</url>
@@ -341,9 +372,9 @@
       
         <tags>
             
-            <tag> 树状数组 </tag>
-            
             <tag> DP </tag>
+            
+            <tag> 树状数组 </tag>
             
             <tag> 哈希 </tag>
             
@@ -632,9 +663,9 @@
       
         <tags>
             
-            <tag> 图论 </tag>
-            
             <tag> BFS </tag>
+            
+            <tag> 图论 </tag>
             
             <tag> ACM </tag>
             
@@ -671,9 +702,9 @@
             
             <tag> ACM </tag>
             
-            <tag> 比赛 </tag>
-            
             <tag> 思维 </tag>
+            
+            <tag> 比赛 </tag>
             
             <tag> 优化 </tag>
             
@@ -1059,9 +1090,9 @@
             
             <tag> ACM </tag>
             
-            <tag> 比赛 </tag>
-            
             <tag> 思维 </tag>
+            
+            <tag> 比赛 </tag>
             
         </tags>
       
@@ -1092,9 +1123,9 @@
             
             <tag> ACM </tag>
             
-            <tag> 比赛 </tag>
-            
             <tag> 思维 </tag>
+            
+            <tag> 比赛 </tag>
             
         </tags>
       
@@ -1121,9 +1152,9 @@
       
         <tags>
             
-            <tag> ACM </tag>
-            
             <tag> 分治 </tag>
+            
+            <tag> ACM </tag>
             
             <tag> 差分 </tag>
             

@@ -1,5 +1,5 @@
+https://hydrogensulfate.github.io/2020/08/19/Manacher算法入门/
 https://hydrogensulfate.github.io/2020/05/27/Grefenstette编码解码原理和简单实现/
 https://hydrogensulfate.github.io/2020/03/16/RQNOJ-83/
 https://hydrogensulfate.github.io/2019/10/28/K-means聚类算法的简单numpy实现/
 https://hydrogensulfate.github.io/2019/10/20/一种排列下的子光圈图像合成光场原图像的方法/
-https://hydrogensulfate.github.io/2019/10/15/POJ-1286/
