@@ -129,7 +129,7 @@
 <meta property="og:site_name" content="Blackops">
 <meta property="og:description" content="一、数据结构（+算法）">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-19T02:31:01.920Z">
+<meta property="og:updated_time" content="2020-08-23T10:16:01.719Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HDU复试七门知识点个人版整理">
 <meta name="twitter:description" content="一、数据结构（+算法）">
@@ -452,7 +452,7 @@
 </li>
 <li><p>检测链表中的环：快慢指针p1​和p2，若有环则迟早相遇。</p>
 </li>
-<li><p>返回倒数第$k​$个元素：让指针p1比p2早走$k-1​$步，p2到最后一个节点（p2-&gt;next==NULL)时，p1所指即是目标元素</p>
+<li><p>返回倒数第$k$个元素：让指针p1比p2早走$k-1$步，p2到最后一个节点（p2-&gt;next==NULL)时，p1所指即是目标元素</p>
 </li>
 <li><p>无序链表去重$O(n^2)$</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">del_multielem</span><span class="params">(Node *L)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Node *cur = L-&gt;nxt, *p, *q;</span><br><span class="line">    <span class="keyword">while</span> (cur)</span><br><span class="line">    &#123;</span><br><span class="line">        p = cur;</span><br><span class="line">        q = cur-&gt;nxt;</span><br><span class="line">        <span class="keyword">while</span> (q)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (<span class="built_in">abs</span>(q-&gt;val) == <span class="built_in">abs</span>(cur-&gt;val))<span class="comment">//删除q所指的元素</span></span><br><span class="line">            &#123;</span><br><span class="line">                p-&gt;nxt = q-&gt;nxt;</span><br><span class="line">                q = q-&gt;nxt;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                q = q-&gt;nxt;</span><br><span class="line">                p = p-&gt;nxt;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        cur = cur-&gt;nxt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
