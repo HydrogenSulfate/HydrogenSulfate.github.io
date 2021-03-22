@@ -20,7 +20,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"hydrogensulfate.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","width":280,"display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"hydrogensulfate.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","width":280,"display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="Receiving your wishful thinking">
@@ -107,6 +107,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -136,16 +137,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
-        <li class="menu-item menu-item-commonweal">
-
-    <a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a>
-
-  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -172,7 +195,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/04/19/HDU-1402/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -262,7 +285,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/04/18/CF-475-Div-2-A-B-C-D/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -347,7 +370,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/04/12/CF-Educational-42-A-B-C-D-F/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -426,7 +449,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/04/08/CF-Educational-41-A-B-C-D-E/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -505,7 +528,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/03/20/哈希表的链式存储/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -586,7 +609,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/03/19/字符串分割istringstream与strtok/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -667,7 +690,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/03/14/CF-470-Div-2题解/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -752,7 +775,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/03/05/BZOJ-1001-狼抓兔子/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -835,7 +858,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/03/02/CCF-CSP-201509-5-最佳文章（AC自动机-矩阵快速幂）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -921,7 +944,7 @@
     <link itemprop="mainEntityOfPage" href="https://hydrogensulfate.github.io/2018/02/28/CF-466-Div-2题解/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
       <meta itemprop="name" content="Blackops">
       <meta itemprop="description" content="Receiving your wishful thinking">
     </span>
@@ -1054,6 +1077,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Blackops"
+      src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724047925,3712917540&fm=26&gp=0.jpg">
   <p class="site-author-name" itemprop="name">Blackops</p>
   <div class="site-description" itemprop="description">Receiving your wishful thinking</div>
 </div>
@@ -1140,6 +1165,8 @@
 
 
 
+
+  <script src="/js/local-search.js"></script>
 
 
 
