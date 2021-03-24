@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" href="/lib/pace/pace-theme-loading-bar.min.css">
   <script src="/lib/pace/pace.min.js"></script>
@@ -24,7 +24,7 @@
   </script>
 
   <meta name="description" content="A.Eleven题意就是输出长度为$n$的仅含$O$或$o$的字符串，打表标记一下斐波那契的项再输出就好">
-<meta name="keywords" content="DP,ACM,比赛,思维">
+<meta name="keywords" content="ACM,比赛,DP,思维">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CF #459 Div.2 A B C D">
 <meta property="og:url" content="https://hydrogensulfate.github.io/2018/01/30/CF-459-Div-2-A-B-C-D/index.html">
@@ -78,9 +78,9 @@
   .use-motion .logo-line-before i { left: initial; }
   .use-motion .logo-line-after i { right: initial; }
   </style>
-</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</noscript>
 
-<link rel="alternate" href="/atom.xml" title="Blackops" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="Blackops" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -236,6 +236,13 @@
             </span>
 
           
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
 
         </div>
       </header>
@@ -266,9 +273,9 @@ dp[i][j][v] \;|=\;(dp[j][i'][v'] == 0)，i'是i走的下一个点,v'是i走的�
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/DP/" rel="tag"># DP</a>
               <a href="/tags/ACM/" rel="tag"># ACM</a>
               <a href="/tags/比赛/" rel="tag"># 比赛</a>
+              <a href="/tags/DP/" rel="tag"># DP</a>
               <a href="/tags/思维/" rel="tag"># 思维</a>
           </div>
 
@@ -408,6 +415,26 @@ dp[i][j][v] \;|=\;(dp[j][i'][v'] == 0)，i'是i走的下一个点,v'是i走的�
   </div>
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
 
 
 
